@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-size: larger;
 }
 
 body {
@@ -12,18 +14,27 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: rgb(184, 184, 184);
 }
 
 .container {
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .btn {
-    min-width: 110px;
+    min-width: 280px;
     margin: 5px 5px;
-    height: 30px;
+    height: 60px;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(85, 85, 85);
 }
 
